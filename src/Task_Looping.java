@@ -24,7 +24,8 @@ public class Task_Looping {
         int f = 1;
 
         System.out.print("Display Task 1:" + sum1 + ",");
-        while (sum1 < 23) {
+        while (sum1 < 23)
+        {
             sum1 = sum1 + 1;
             System.out.print(+sum1 + ",");
         }
@@ -32,7 +33,8 @@ public class Task_Looping {
         System.out.print(+sum1 + ".");
         System.out.println();
         System.out.print("Display Task 2:" + sum2 + ",");
-        while (sum2 > 1) {
+        while (sum2 > 1)
+        {
             sum2 = sum2 - 1;
             System.out.print(+sum2 + ",");
         }
